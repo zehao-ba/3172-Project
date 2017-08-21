@@ -1,0 +1,187 @@
+
+/* NAVBAR CSS */
+.ui.grid.main{
+    margin-top: 70px;
+}
+
+
+.mobile.row{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+.mobile.row .ui.inverted.menu{
+    border-radius: 0px !important;
+}
+
+.padding-reset{
+    padding: 0px !important;
+}
+
+.ui.message{
+    padding: 40px !important;
+}
+
+@media (max-width: 767px) {
+    .ui.grid.main{
+        margin-top: 70px;
+    }
+
+    .ui.grid { margin: 0 !important; }
+    .ui.vertical.menu.navbar{
+        margin-top: 0px !important;
+    }
+
+    #main_content{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 8%;
+    }
+}
+
+@media (min-width: 767px) {
+  /* Main content are style info */
+  #main_content{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+  }
+}
+
+.ui.vertical.menu{
+    margin-top: -15px !important;
+    width: 100%;
+    display: none;
+}
+
+
+#navbarCustom
+{
+    margin-bottom: 5%;
+}
+
+
+
+/* FOOTER CSS */
+#footer
+{
+}
+
+
+/* Login Modal CSS */
+#logHeader
+{
+    color:black;
+    margin-top: 20px;
+}
+
+#logButton
+{
+    background-color: #4F628E;
+}
+
+/* Carousel CSS */
+.slider
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+/* Hides the error message for the login form on load */
+#failureMessage
+{
+    display: none;
+}
+
+/* Shopping item CSS */
+.cartContainer
+{
+    display: block;
+}
+
+
+.cartItem
+{
+    /* Modify/Remove border later, for testing purposes  */
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 0.28571429rem;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+
+}
+
+.productImage
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 0.28571429rem;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.productTitle
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    display: block;
+
+}
+
+.productDescription
+{
+    float: left;
+
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.productPrice
+{
+    float: left;
+
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.itemButton
+{
+    float: left;
+    margin-left: 10px !important;
+    margin-top: 8px !important;
+}
+
+
+.ui.center.aligned.segment
+{
+  width: 50%;
+  padding: 2%;
+  padding-bottom: 2%;
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-bottom: 1%;
+  text-align: left;
+
+}
+/*
+the black version style, the problem is that it would change the footer style as well*/
+/*.ui.inverted.segment{
+  width: 50%;
+  padding: 2.5% 2.5% 2.5% 2.5%;
+  margin-top: 6%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+
+.ui.radio.checkbox label{
+  color: lightgrey;
+}*/
